@@ -550,7 +550,6 @@ footer{display:none !important}
 """
 
 with gr.Blocks(css=css) as interface:
-    gr.Markdown("# 🗿 Swap Mukham")
     gr.Markdown("### Face swap app based on insightface inswapper.")
     with gr.Row():
         with gr.Row():
@@ -777,23 +776,7 @@ with gr.Blocks(css=css) as interface:
                         "🎬", interactive=False, visible=not USE_COLAB
                     )
 
-                with gr.Box():
-                    with gr.Row():
-                        gr.Markdown(
-                            "### [🤝 Sponsor](https://github.com/sponsors/harisreedhar)"
-                        )
-                        gr.Markdown(
-                            "### [👨‍💻 Source code](https://github.com/harisreedhar/Swap-Mukham)"
-                        )
-                        gr.Markdown(
-                            "### [⚠️ Disclaimer](https://github.com/harisreedhar/Swap-Mukham#disclaimer)"
-                        )
-                        gr.Markdown(
-                            "### [🌐 Run in Colab](https://colab.research.google.com/github/harisreedhar/Swap-Mukham/blob/main/swap_mukham_colab.ipynb)"
-                        )
-                        gr.Markdown(
-                            "### [🤗 Acknowledgements](https://github.com/harisreedhar/Swap-Mukham#acknowledgements)"
-                        )
+               
 
     ## ------------------------------ GRADIO EVENTS ------------------------------
 
