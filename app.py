@@ -27,7 +27,7 @@ from utils import trim_video, StreamerThread, ProcessBar, open_directory, split_
 
 ## ------------------------------ USER ARGS ------------------------------
 
-parser = argparse.ArgumentParser(description="Swap-Mukham Face Swapper")
+## parser = argparse.ArgumentParser(description="Swap-Mukham Face Swapper")
 parser.add_argument("--out_dir", help="Default Output directory", default=os.getcwd())
 parser.add_argument("--batch_size", help="Gpu batch size", default=32)
 parser.add_argument("--cuda", action="store_true", help="Enable cuda", default=False)
